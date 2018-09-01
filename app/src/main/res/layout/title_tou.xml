@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_bg"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/t_img1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/a_4"
+    android:padding="8dp"
+    />
+    <EditText
+        android:id="@+id/t_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="京东抢购日"
+
+        />
+    <ImageView
+        android:id="@+id/t_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/root"
+        android:padding="8dp"
+        />
+
+</LinearLayout>

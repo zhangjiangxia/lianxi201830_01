@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义属性 -->
+    <declare-styleable name="MySearchView">
+        <attr name="search_hint" format="string" />
+    </declare-styleable>
+      <declare-styleable name="AddAndDelete">
+          <attr name="num_shu" format="integer"/>
+      </declare-styleable>
+</resources>
